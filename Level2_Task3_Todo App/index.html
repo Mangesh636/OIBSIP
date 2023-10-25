@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Coding by Mangesh | (M.B) -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ToDo App created for web development intership at OIBSIP"
+    />
+    <meta name="author" content="Mangesh Bhardwaj" />
+    <script src="https://kit.fontawesome.com/dd99733b6b.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <i class="fa-solid fa-bars-staggered"></i>
+        <input type="text" placeholder="Add a new task" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
